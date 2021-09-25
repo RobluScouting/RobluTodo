@@ -20,7 +20,7 @@ jobs:
             * Please do not leave "+1" or other comments that do not add relevant new information or questions
             * If you are interested in working on this issue or have submitted a pull request, please leave a comment
       - name: Add reaction
-        uses: aidan-mundy/react-to-issue@v1
+        uses: aidan-mundy/react-to-issue@v1.0.0
         with:
           issue-number: ${{ github.event.issue.number }}
           reactions: +1
