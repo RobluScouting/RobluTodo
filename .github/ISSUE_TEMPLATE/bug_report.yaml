@@ -1,0 +1,63 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: TITLE HERE"
+labels: ["bug", "triage"]
+#assignees:
+#  - octocat
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Describe what went wrong
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-have-happened
+    attributes:
+      label: What should have happened?
+      placeholder: Describe what you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Tell us what steps we can perform to consistently reproduce this problem
+    validations:
+      required: true
+  - type: input
+    id: roblu-version
+    attributes:
+      label: What Roblu version did you experience this problem on?
+      placeholder: ex. Roblu Beta v0.1.1 
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: What platform did you experience this problem on?
+      description: For any browser (Chrome, Firefox, Safari, etc) on mobile or desktop, select "Web Browser".
+      multiple: false
+      options:
+        - Web Browser
+        - Android
+        - iOS
+        - Windows
+        - Linux
+        - macOS
+      validations:
+        required: true
+  - type: input
+    id: platform-version
+    attributes:
+      label: What browser or operating system version did you experience this problem on? 
+      placeholder: ex. Chrome 93 or Android 11
+    validations:
+      required: true
+  - type: textarea
+    id: logs-and-data
+    attributes:
+      label: Log outputs, debug files, screenshots, or other attachments. 
+    validations:
+      required: false

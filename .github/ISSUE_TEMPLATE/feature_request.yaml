@@ -1,0 +1,40 @@
+name: Feature Request
+description: File a feature request
+title: "[Feat]: TITLE HERE"
+labels: ["feature-request", "triage"]
+#assignees:
+#  - octocat
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature you'd like
+      placeholder: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternative solutions you've considered
+      placeholder: Hacks, workarounds, other apps, etc
+    validations:
+      required: false
+  - type: textarea
+    id: misc-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: What platforms should this feature apply to? (Select all that apply)
+      multiple: true
+      options:
+        - Mobile Web
+        - Desktop Web
+        - Mobile
+        - Desktop
+      validations:
+        required: false
