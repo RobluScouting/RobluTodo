@@ -1,7 +1,7 @@
 name: Feature Request
 description: File a feature request
 title: "[Feat]: TITLE HERE"
-labels: ["feature-request", "triage"]
+labels: ["feature request", "triage"]
 #assignees:
 #  - octocat
 body:
