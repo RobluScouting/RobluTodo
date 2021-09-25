@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Roadmap
+    url: https://github.com/orgs/RobluScouting/projects/1
+    about: See a rough timeline of the progress for the Roblu project
   - name: Roblu Discord Server
     url: https://discord.gg/quqRdsthvR
     about: Join the Discord server to chat with developers and other community members!
