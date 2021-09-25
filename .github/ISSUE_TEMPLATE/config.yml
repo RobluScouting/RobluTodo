@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Discussions
+    url: https://github.com/RobluScouting/RobluTodo/discussions
+    about: Have a question? Want to spitball some ideas without a formal feature request? Hop on over to the Discussions tab!
   - name: Roadmap
     url: https://github.com/orgs/RobluScouting/projects/1
     about: See a rough timeline of the progress for the Roblu project
