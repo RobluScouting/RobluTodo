@@ -36,5 +36,5 @@ body:
         - Desktop Web
         - Mobile
         - Desktop
-      validations:
-        required: false
+    validations:
+      required: false
